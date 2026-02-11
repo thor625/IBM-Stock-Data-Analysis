@@ -1,36 +1,31 @@
-[README.md](https://github.com/user-attachments/files/25242314/README.md)
-# IBM Stock Data Analysis
+# IBM Stock Data Analysis Assignment
 
-Notebook project analyzing Tesla and GameStop stock data and related revenue information.
+## Portfolio Snapshot
+- Score: **4.2 / 10**
+- Verdict: **Do not feature as a primary portfolio project**
+- Category: Intro financial data assignment
 
-## Overview
-This assignment-style repository focuses on pulling historical stock data and combining it with business context to build analytical visualizations.
+## Project Summary
+A coursework notebook that extracts Tesla/GameStop stock and revenue data, then visualizes trends.
 
-## Repository Contents
-- `Analyzing Historical Stock Revenue Data and Building a Dashboard.ipynb`: Main analysis notebook.
+## What It Does
+- Pulls stock data via `yfinance`
+- Scrapes revenue tables from provided pages
+- Cleans tables and produces charts
 
 ## Tech Stack
-- Python
-- Jupyter Notebook
-- yfinance
-- pandas
-- Plotting libraries for dashboard-style charts
+- Python, pandas
+- yfinance, requests, BeautifulSoup
+- Plotly
 
-## Getting Started
-1. Create and activate a virtual environment.
-2. Install dependencies:
-   ```bash
-   pip install jupyter yfinance pandas matplotlib plotly
-   ```
-3. Launch Jupyter and open the notebook:
-   ```bash
-   jupyter notebook
-   ```
+## Repository Contents
+- `Final Assignment.ipynb`: assignment notebook
 
-## Usage
-1. Run cells to retrieve historical stock data.
-2. Process and align revenue and market data.
-3. Render the final visualization/dashboard outputs.
+## Why This Scores Here
+- Good baseline data-handling exercise
+- Low originality and low engineering depth compared with stronger repos
 
-## Notes
-- This project is intended for educational analysis and portfolio demonstration.
+## Improvement Priorities
+- Expand to multi-ticker comparative analysis
+- Add reproducible ETL pipeline and scheduled refresh
+- Add richer quantitative analysis beyond plotting
