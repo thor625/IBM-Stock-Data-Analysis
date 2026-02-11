@@ -13,6 +13,11 @@ A coursework notebook that extracts Tesla/GameStop stock and revenue data, then 
 - Scrapes revenue tables from provided pages
 - Cleans tables and produces charts
 
+## Key Outputs
+- Stock history DataFrames for Tesla and GameStop
+- Revenue DataFrames parsed from HTML tables
+- Plotly visualizations for stock vs revenue trends
+
 ## Tech Stack
 - Python, pandas
 - yfinance, requests, BeautifulSoup
@@ -20,6 +25,11 @@ A coursework notebook that extracts Tesla/GameStop stock and revenue data, then 
 
 ## Repository Contents
 - `Final Assignment.ipynb`: assignment notebook
+
+## Run Locally
+1. Install dependencies (`pandas`, `yfinance`, `requests`, `beautifulsoup4`, `plotly`).
+2. Open `Final Assignment.ipynb`.
+3. Run cells from top to bottom.
 
 ## Why This Scores Here
 - Good baseline data-handling exercise
